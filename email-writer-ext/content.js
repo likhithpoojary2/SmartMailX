@@ -69,7 +69,7 @@ function injectButton(){
                 },
                 body:JSON.stringify ({
                     "emailContent":emailContent,
-                    "tone":"profesional"
+                    "tone":"profesional"  //default
                 })
             });
 
